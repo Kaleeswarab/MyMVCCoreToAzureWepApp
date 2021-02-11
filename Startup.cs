@@ -28,8 +28,10 @@ namespace myazurecorewebapppoc
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
-                .AddAzureAD(options => Configuration.Bind("AzureAd", options)).AddFacebook(options => 
+            //services.AddAuthentication(AzureADDefaults.AuthenticationScheme)
+                //.AddAzureAD(options => Configuration.Bind("AzureAd", options));
+                
+                services.AddAuthentication().AddFacebook(options => 
                 {
                  options.AppId = "476695353323105";
                  options.AppSecret = "3ff6c14b20c53a20f1e7ea5d0923eafb";
