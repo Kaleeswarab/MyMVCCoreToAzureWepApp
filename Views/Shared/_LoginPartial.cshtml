@@ -17,8 +17,15 @@
 }
 else
 {
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="AzureAD" asp-controller="Account" asp-action="SignIn">Sign in</a>
-        </li>
+       @*  <li class="nav-item">
+            <a class="nav-link text-dark" asp-controller="Account" asp-action="FacebookLogin">Sign in</a>
+        </li> *@
+       
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="AzureAD" asp-controller="Account" asp-action="SignUp">Register</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="AzureAD" asp-controller="Account" asp-action="SignIn">Login</a>
+    </li>
 }
 </ul>

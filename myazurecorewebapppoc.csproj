@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.AzureAD.UI" Version="3.1.10" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Facebook" Version="3.1.12" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.12" />
     <PackageReference Include="Microsoft.Identity.Web" Version="1.5.1" />
     <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.5.1" />
     <PackageReference Include="Microsoft.Owin.Security.OpenIdConnect" Version="4.0.1" />

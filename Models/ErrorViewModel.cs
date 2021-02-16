@@ -1,5 +1,3 @@
-using System;
-
 namespace myazurecorewebapppoc.Models
 {
     public class ErrorViewModel

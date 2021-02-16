@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using myazurecorewebapppoc.Models;
+using System.Diagnostics;
 
 namespace myazurecorewebapppoc.Controllers
 {
@@ -19,6 +15,8 @@ namespace myazurecorewebapppoc.Controllers
         {
             _logger = logger;
         }
+
+        
 
         [AllowAnonymous]
         public IActionResult Index()

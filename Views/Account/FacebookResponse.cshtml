@@ -1,0 +1,14 @@
+﻿@using System.Security.Claims
+
+@model List<Claim>
+   
+@foreach(var property in Model)
+{
+<ul>
+    <li>Type : @property.Type</li>
+    <li>Value : @property.Value</li>
+    <li>Issuer : @property.Issuer</li>
+    <li>Original Issuer : @property.OriginalIssuer</li>
+    <li>Value Type : @property.ValueType</li>
+</ul>
+}
